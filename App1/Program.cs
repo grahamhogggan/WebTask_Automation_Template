@@ -13,35 +13,17 @@ public class Program
         Log("\n***************************\nSession Started: "+SystemClock.Instance.Now);
         IWebDriver driver = new ChromeDriver();
         try{
-            driver.Navigate().GoToUrl("https://192.168.1.43/ui/apps/");
+            driver.Navigate().GoToUrl("https://www.github.com/login");
             Log("Opened Website Successfully");
-                        Thread.Sleep(1000);
+                        Thread.Sleep(2000);
 
-            var updateAllButtons = driver.FindElements(By.CssSelector("ixtest='update-all'][class='update-all-button mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base ng-star-inserted']"));
-            if(updateAllButtons.Any())
-            {
-                
-            Log("update all button found");
-            updateAllButtons.First().Click();
-            Log("update all Button clicked");
-            Thread.Sleep(1000);
-            }
-            else
-            {
-                Log("No update all Element");
-            }
-            var confirmButtons = driver.FindElements(By.CssSelector("ixtest='upgrade'][class='mdc-button mat-mdc-button mat-primary mat-mdc-button-base ng-star-inserted']"));
-            if(confirmButtons.Any())
-            {
-            Log("Confirm button found");
-            confirmButtons.First().Click();
-            Log("Confirm button clicked");
-            Thread.Sleep(1000);
-            }
-            else
-            {
-                Log("No Confirm Element");
-            }
+            IWebElement userNameField  = driver.FindElement(By.Id("login_field"));
+            userNameField.SendKeys("USERNAME");
+            IWebElement passwordField  = driver.FindElement(By.Id("password"));
+            passwordField.SendKeys("PASSWORD");
+            IWebElement sendButton = driver.FindElement(By.Name("commit"));
+            sendButton.Click();
+           
         }
         catch(Exception e)
         {
@@ -49,7 +31,7 @@ public class Program
         }
         finally
         {
-            driver.Quit();
+            //driver.Quit();
         }
     }
     private static void Log(string msg)
@@ -57,7 +39,7 @@ public class Program
         string dat = "";
         if(File.Exists(logsPath))
         {
-dat = File.ReadAllText(logsPath);
+        dat = File.ReadAllText(logsPath);
         }
         
         dat+="\n"+msg;

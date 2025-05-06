@@ -3,3 +3,92 @@
 ***************************
 Session Started: 5/5/2025 6:57:47 PM
 Opened Website Successfully
+
+***************************
+Session Started: 5/5/2025 7:23:14 PM
+Opened Website Successfully
+You messed up: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=136.0.7103.48)
+
+***************************
+Session Started: 5/5/2025 7:23:21 PM
+Opened Website Successfully
+
+***************************
+Session Started: 5/5/2025 7:23:59 PM
+Opened Website Successfully
+You messed up: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=136.0.7103.48)
+
+***************************
+Session Started: 5/5/2025 7:24:04 PM
+
+***************************
+Session Started: 5/5/2025 8:56:55 PM
+Opened Website Successfully
+No update all Element
+
+***************************
+Session Started: 5/5/2025 8:57:18 PM
+Opened Website Successfully
+No update all Element
+
+***************************
+Session Started: 5/5/2025 9:01:42 PM
+Opened Website Successfully
+No update all Element
+
+***************************
+Session Started: 5/5/2025 9:02:10 PM
+Opened Website Successfully
+No login Element
+
+***************************
+Session Started: 5/5/2025 9:02:37 PM
+Opened Website Successfully
+No login Element
+
+***************************
+Session Started: 5/5/2025 9:03:47 PM
+Opened Website Successfully
+No login Element
+
+***************************
+Session Started: 5/5/2025 9:04:30 PM
+Opened Website Successfully
+You messed up: Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+
+***************************
+Session Started: 5/5/2025 9:06:04 PM
+Opened Website Successfully
+You messed up: Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+
+***************************
+Session Started: 5/5/2025 9:07:00 PM
+Opened Website Successfully
+No login Element
+
+***************************
+Session Started: 5/5/2025 9:10:21 PM
+Opened Website Successfully
+No login Element
+
+***************************
+Session Started: 5/5/2025 9:12:36 PM
+Opened Website Successfully
+You messed up: no such element: Unable to locate element: {"method":"css selector","selector":"#login\-field"}
+  (Session info: chrome=136.0.7103.48); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+
+***************************
+Session Started: 5/5/2025 9:12:58 PM
+Opened Website Successfully
+
+***************************
+Session Started: 5/5/2025 9:13:41 PM
+Opened Website Successfully
+
+***************************
+Session Started: 5/5/2025 9:14:34 PM
+Opened Website Successfully
