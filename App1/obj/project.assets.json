@@ -86,11 +86,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hogga\\Documents\\Projects\\AutomationTest\\App1\\App1.csproj",
+      "projectUniqueName": "C:\\Users\\hogga\\Documents\\Projects\\AutomationTest\\WebTask_Automation_Template\\App1\\App1.csproj",
       "projectName": "App1",
-      "projectPath": "C:\\Users\\hogga\\Documents\\Projects\\AutomationTest\\App1\\App1.csproj",
+      "projectPath": "C:\\Users\\hogga\\Documents\\Projects\\AutomationTest\\WebTask_Automation_Template\\App1\\App1.csproj",
       "packagesPath": "C:\\Users\\hogga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hogga\\Documents\\Projects\\AutomationTest\\App1\\obj\\",
+      "outputPath": "C:\\Users\\hogga\\Documents\\Projects\\AutomationTest\\WebTask_Automation_Template\\App1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hogga\\AppData\\Roaming\\NuGet\\NuGet.Config"

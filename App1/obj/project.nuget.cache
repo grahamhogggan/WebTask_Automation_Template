@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QlJtBIODe34=",
+  "dgSpecHash": "+Kh4uSMZeGw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hogga\\Documents\\Projects\\AutomationTest\\App1\\App1.csproj",
+  "projectFilePath": "C:\\Users\\hogga\\Documents\\Projects\\AutomationTest\\WebTask_Automation_Template\\App1\\App1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hogga\\.nuget\\packages\\selenium.webdriver\\4.32.0\\selenium.webdriver.4.32.0.nupkg.sha512",
     "C:\\Users\\hogga\\.nuget\\packages\\selenium.webdriver.chromedriver\\136.0.7103.4900\\selenium.webdriver.chromedriver.136.0.7103.4900.nupkg.sha512"
